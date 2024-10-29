@@ -38,6 +38,27 @@ a:hover {
   width: 200px;
 }
 
+.home {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home img {
+  width: 100%;
+  height: 650px;
+}
+
+.home .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+
 /* Umtuk about */
 #about {
   padding: 20px;
@@ -90,7 +111,8 @@ p {
 
 /* Untuk contact */
 #contact {
-  margin: 20px 0;
+  margin: 50px 100px;
+  border-radius: 15px;
   padding: 200px;
   text-align: center;
   align-items: center;
@@ -220,4 +242,33 @@ button {
 .wa p,
 .ig p {
   font-size: 35px;
+}
+
+/* Untuk footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  background: gray;
+}
+
+.footer-about,
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-about h1,
+.footer-contact h1 {
+  font-size: 20px;
+}
+
+.footer-about p,
+.footer-contact p {
+  text-align: justify;
 }
